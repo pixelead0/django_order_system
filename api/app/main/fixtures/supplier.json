@@ -1,0 +1,35 @@
+[
+{
+  "model": "main.supplier",
+  "pk": 1,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:18:25.074Z",
+    "updated_at": "2020-10-28T10:18:25.074Z",
+    "name": "ELECTR\u00d3NICA STEREN, S.A. DE C.V.",
+    "address": "Bi\u00f3logo Maximino Mart\u00ednez No. 3408, Col. San Salvador Xochimanca, Deleg. Azcapotzalco, M\u00e9xico D. F., C.P. 02870"
+  }
+},
+{
+  "model": "main.supplier",
+  "pk": 2,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:19:17.800Z",
+    "updated_at": "2020-10-28T10:19:17.800Z",
+    "name": "AG Electr\u00f3nica SAPI de CV",
+    "address": "Enrique Gonz\u00e1lez Mart\u00ednez 167, Col Santa Mar\u00eda la Ribera, Delegaci\u00f3n Cuauht\u00e9moc, CP 06400, Ciudad de M\u00e9xico, M\u00e9xico,"
+  }
+},
+{
+  "model": "main.supplier",
+  "pk": 3,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:21:06.583Z",
+    "updated_at": "2020-10-28T10:21:06.583Z",
+    "name": "Electr\u00f3nica SETA, S.A. de C.V",
+    "address": "C. Galeana 115-101, La Loma, 54060 Tlalnepantla de Baz, M\u00e9x."
+  }
+}
+]

@@ -1,0 +1,145 @@
+[
+{
+  "model": "main.customer",
+  "pk": 1,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:26:04.433Z",
+    "updated_at": "2020-10-28T10:33:00.901Z",
+    "name": "Levu Talent Hunters",
+    "code": "079",
+    "photo": "uploads/customers/photo_20201028_042604_51273d48.jpg",
+    "customer_type": 1
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 2,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:26:40.739Z",
+    "updated_at": "2020-10-28T10:26:40.739Z",
+    "name": "Efra\u00edn Dzul",
+    "code": "192",
+    "photo": "uploads/customers/photo_20201028_042640_55a73037.jpg",
+    "customer_type": 3
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 3,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:29:11.394Z",
+    "updated_at": "2020-10-28T10:29:11.394Z",
+    "name": "Ricardo Moctezuma",
+    "code": "686",
+    "photo": "uploads/customers/photo_20201028_042911_1c0bd93f.png",
+    "customer_type": 2
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 4,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:29:29.461Z",
+    "updated_at": "2020-10-28T10:29:29.461Z",
+    "name": "Miguel Menc\u00eda",
+    "code": "001",
+    "photo": "uploads/customers/photo_20201028_042929_8241d500.jpg",
+    "customer_type": 4
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 5,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:29:59.187Z",
+    "updated_at": "2020-10-28T10:29:59.187Z",
+    "name": "Pedro Jes\u00fas Gonz\u00e1lez vargas",
+    "code": "009",
+    "photo": "uploads/customers/photo_20201028_042959_0f0e59b1.jpg",
+    "customer_type": 2
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 6,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:30:25.416Z",
+    "updated_at": "2020-10-28T10:30:25.416Z",
+    "name": "Rodrigo Cobos",
+    "code": "766",
+    "photo": "uploads/customers/photo_20201028_043025_e29491e5.jpg",
+    "customer_type": 4
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 7,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:30:48.485Z",
+    "updated_at": "2020-10-28T10:34:26.225Z",
+    "name": "Jes\u00fas Navarro",
+    "code": "002",
+    "photo": "uploads/customers/photo_20201028_043048_60063f08.jpg",
+    "customer_type": 3
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 8,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:31:06.669Z",
+    "updated_at": "2020-10-28T10:31:06.669Z",
+    "name": "Antonio \u00c9ram",
+    "code": "088",
+    "photo": "uploads/customers/photo_20201028_043106_646f40c1.jpg",
+    "customer_type": 1
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 9,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:31:34.246Z",
+    "updated_at": "2020-10-28T10:31:34.247Z",
+    "name": "Luis Rios Coutino",
+    "code": "075",
+    "photo": "uploads/customers/photo_20201028_043134_1406c12d.jpg",
+    "customer_type": 3
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 10,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:31:55.593Z",
+    "updated_at": "2020-10-28T10:31:55.593Z",
+    "name": "Ivette Silva",
+    "code": "4343",
+    "photo": "uploads/customers/photo_20201028_043155_efb98c37.jpg",
+    "customer_type": 1
+  }
+},
+{
+  "model": "main.customer",
+  "pk": 11,
+  "fields": {
+    "is_active": true,
+    "created_at": "2020-10-28T10:32:14.845Z",
+    "updated_at": "2020-10-28T10:32:14.845Z",
+    "name": "Daniel Ortega",
+    "code": "55434",
+    "photo": "uploads/customers/photo_20201028_043214_1111e639.png",
+    "customer_type": 4
+  }
+}
+]
