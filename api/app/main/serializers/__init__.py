@@ -1,1 +1,2 @@
-from app.main.serializers.order import OrderSerializer
+from app.main.serializers.order_serializer import OrderSerializer
+from app.main.serializers.order_detail_serializer import OrderDetailSerializer

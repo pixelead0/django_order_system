@@ -1,4 +1,5 @@
-from app.main.viewsets.order import (
-    AgentWarrantListCreate,
-    AgentWarrantRetrieveUpdateDestroy,
-)
+from app.main.viewsets.order_viewset import OrderListCreate
+from app.main.viewsets.order_viewset import OrderRetrieveUpdateDestroy
+
+from app.main.viewsets.order_detail_viewset import OrderDetailListCreate
+from app.main.viewsets.order_detail_viewset import OrderDetailRetrieveUpdateDestroy

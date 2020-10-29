@@ -2,13 +2,11 @@ from app.main.models import Order, OrderDetail
 from rest_framework import serializers
 
 
-class OrderSerializer(serializers.ModelSerializer):
-    """Order Serializer."""
-
+class OrderDetailSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Order
-        # fields = ["order_details"]
+        model = OrderDetail
         exclude = (
+            "order",
             "is_active",
             "created_at",
             "updated_at",
