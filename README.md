@@ -1,6 +1,9 @@
-# Python Flask Test
+# Django Order System
 
 This project implements an order system using python django
+
+Author: pixelead0
+email: adangq@gmail.com
 
 # Entities
 
@@ -12,7 +15,6 @@ This project implements an order system using python django
  - DistributionCenter
  - BranchOffice
  - AssociatedCompany.
-
 
 ```
 
@@ -26,9 +28,7 @@ This project implements an order system using python django
 - `Python 3.8`
 - `Django 1.1.2 `
 - `Docker`
-- `Redis`
 - `PostgreSQL 11`
-- `VueJS`
 
 ## COLLABORATIVE WORKFLOW
 
@@ -77,7 +77,7 @@ virtualenv -p python3.8 ./venv
 **Clone the repository**
 
 ```shell
-git clone git@github.com:pixelead0/project.git
+git clone git@github.com:pixelead0/django_order_system.git
 ```
 
 **Copy the configuration files.**
@@ -96,6 +96,30 @@ docker-compose up
 
 ```shell
 sudo chown -R $USER
+```
+
+**Export local database to fixtures**
+
+Add new fixture to `generate_fixtures.sh` file and reganerate the fixtures
+
+```shell
+sh generate_fixtures.sh
+```
+
+**Load data to local database**
+
+Edit `api/load_fixtures.sh` and rebuild api container.
+
+```shell
+docker-compose --build api
+```
+
+**Reload data to local database without build container**
+
+Edit `api/load_fixtures.sh` and execute:
+
+```shell
+sh reload_fixtures.sh
 ```
 
 ---
