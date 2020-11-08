@@ -68,7 +68,7 @@ On your host machine, setup python environment:
 ```shell
 # FROM HOST
 rm -fr ./venv
-virtualenv -p python3.8 ./venv
+python3.8 -m venv venv
 ./venv/bin/pip3 install -r ./api/requirements.txt
 ```
 
