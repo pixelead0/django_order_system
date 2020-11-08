@@ -1,5 +1,5 @@
-from app.main.models import Customer
 from django.contrib import admin
+from app.main.models import Customer
 
 
 @admin.register(Customer)
@@ -17,4 +17,4 @@ class CustomerAdmin(admin.ModelAdmin):
     search_fields = ("name",)
 
     ordering = ("name",)
-    list_filter=("customer_type",)
+    list_filter = ("customer_type",)

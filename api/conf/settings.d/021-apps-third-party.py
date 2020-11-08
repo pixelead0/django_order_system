@@ -1,6 +1,6 @@
 # Third party applications
 INSTALLED_APPS += [
-    'rest_framework',
-    'corsheaders',
-    'django_filters'
+    "rest_framework",
+    "corsheaders",
+    "django_filters",
 ]

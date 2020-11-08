@@ -48,8 +48,8 @@ else
 fi
 
 echo "-----------------------------------"
-echo "-- Front   : http://0.0.0.0 "
 echo "-- Back   : http://0.0.0.0:8000/admin "
+echo "-- API    : http://0.0.0.0:8000/v1/ "
 echo "-- Usuario : mobilender"
 echo "-- Password: Y2MzNjQyM2M0MTk5MzJk "
 echo "-----------------------------------"

@@ -1,5 +1,5 @@
-from app.main.models import DeliveryDistributionCenter
 from django.contrib import admin
+from app.main.models import DeliveryDistributionCenter
 
 
 @admin.register(DeliveryDistributionCenter)

@@ -1,5 +1,5 @@
-from app.main.models import DeliveryBranchOffice
 from django.contrib import admin
+from app.main.models import DeliveryBranchOffice
 
 
 @admin.register(DeliveryBranchOffice)

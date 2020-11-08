@@ -4,6 +4,9 @@ from app.core.models import ManagerTimestampMixin
 
 
 class TimestampMixin(models.Model):
+    """
+    Timestamps fields
+    """
     is_active = models.BooleanField(
         verbose_name=_("Activo"),
         default=True,

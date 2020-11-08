@@ -1,4 +1,7 @@
 import logging
+import os
+from datetime import datetime
+from uuid import uuid4
 
 from django.utils.deconstruct import deconstructible
 
@@ -7,8 +10,9 @@ logger = logging.getLogger(__name__)
 
 @deconstructible
 class UploadFileConfig(object):
+    """
+    Configuración para los archivos que se suben al sistema.
 
-    """Configuración para los archivos que se suben al sistema.
     Se genera un nombre de archivo aleatorio dentro de la ruta seleccionada.
     """
 
@@ -18,10 +22,6 @@ class UploadFileConfig(object):
 
     def __call__(self, instance, filename):
         """Para renombrar archivos al subirlos."""
-        from uuid import uuid4
-        import os
-        from datetime import datetime
-
         now = datetime.now().strftime("%Y%m%d_%H%M%S")
 
         ext = filename.split(".")[-1].lower()

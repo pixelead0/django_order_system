@@ -1,5 +1,5 @@
-from app.main.models import CustomerType
 from django.contrib import admin
+from app.main.models import CustomerType
 
 
 @admin.register(CustomerType)

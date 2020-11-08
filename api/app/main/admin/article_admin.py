@@ -1,5 +1,5 @@
-from app.main.models import Article
 from django.contrib import admin
+from app.main.models import Article
 
 
 @admin.register(Article)

@@ -1,4 +1,9 @@
 import logging
+from django.db.models.signals import pre_save
+from django.dispatch import receiver
+from django.db import models
+from django.utils.translation import ugettext_lazy as _
+from django.core.exceptions import ValidationError
 
 from app.core.models import SaveReversionMixin, TimestampMixin
 from app.main.models import Customer
@@ -7,11 +12,6 @@ from app.main.models import DeliveryBranchOffice
 from app.main.models import DeliveryDistributionCenter
 from app.main.constants import DeliveryChoices
 
-from django.db.models.signals import pre_save
-from django.dispatch import receiver
-from django.db import models
-from django.utils.translation import ugettext_lazy as _
-from django.core.exceptions import ValidationError
 
 logger = logging.getLogger(__name__)
 
@@ -92,7 +92,7 @@ class Order(SaveReversionMixin, TimestampMixin):
 
 
 @receiver(pre_save, sender=Order)
-def pre_save_validate_delivery_option(sender, instance, **kwargs):
+def pre_save_validate_delivery(sender, instance, **kwargs):
     """Validate of the selected place of delivery."""
     delivery_type = instance.delivery_type
     # logger.info(delivery_type)

@@ -1,9 +1,9 @@
 import logging
+from django.db import models
+from django.utils.translation import ugettext_lazy as _
 
 from app.core.models import SaveReversionMixin, TimestampMixin
-from django.db import models
 from app.main.models import Order, Article
-from django.utils.translation import ugettext_lazy as _
 
 logger = logging.getLogger(__name__)
 

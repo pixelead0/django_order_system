@@ -1,5 +1,5 @@
-from app.main.models import Supplier
 from django.contrib import admin
+from app.main.models import Supplier
 
 
 @admin.register(Supplier)

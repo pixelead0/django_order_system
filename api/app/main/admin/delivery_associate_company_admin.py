@@ -1,5 +1,5 @@
-from app.main.models import DeliveryAssociateCompany
 from django.contrib import admin
+from app.main.models import DeliveryAssociateCompany
 
 
 @admin.register(DeliveryAssociateCompany)

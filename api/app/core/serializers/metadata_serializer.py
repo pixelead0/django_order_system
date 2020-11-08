@@ -6,9 +6,9 @@ from rest_framework.utils.field_mapping import ClassLookupDict
 
 class FormMetadata(SimpleMetadata):
     """
-    Sirve para mostrar el schema de un form al hacer una petición
-    con el método OPTIONS.
+    Sirve para mostrar el schema de un form al hacer una petición con el método OPTIONS.
     """
+
     label_lookup = ClassLookupDict({
         serializers.Field: 'field',
         serializers.BooleanField: 'checkbox',
